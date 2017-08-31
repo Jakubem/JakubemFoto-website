@@ -1,0 +1,11 @@
+- var activePage = 'photo';
+doctype html
+head
+ include includes/meta
+body(class=(activePage === 'photo' ? "body-gallery": ""))
+  include includes/header
+  h2(class='photo-h2')
+  include includes/gallery
+  include includes/footer
+  script(src='js/halkaBox.min.js')
+  script(src='js/index.js')

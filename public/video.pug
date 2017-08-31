@@ -1,0 +1,13 @@
+- var activePage = 'video';
+doctype html
+head
+ include includes/meta
+body(class=(activePage === 'video' ? "body-gallery": ""))
+  include includes/header
+  div(class='video',)
+    iframe(width='640', height='360', class='yt' src='https://www.youtube.com/embed/fn7IK5WUZk8',
+    frameborder='0', allowfullscreen='')
+    iframe(width="640" height="360" class='yt' src="https://www.youtube.com/embed/cj80ebccWBo" frameborder="0" allowfullscreen)
+  include includes/footer
+  script(src='js/halkaBox.min.js')
+  script(src='js/index.js')
