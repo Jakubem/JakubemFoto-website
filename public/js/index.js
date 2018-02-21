@@ -12,8 +12,8 @@ halkaBox.run("gallery2", {
   preload: 2
 });
 
-var btn = document.querySelector('.btn');
-var hdr = document.querySelector('.menu-list');
+const btn = document.querySelector('.btn');
+const hdr = document.querySelector('.menu-list');
 btn.addEventListener('click', function () {
   hdr.classList.toggle('open');
 });
