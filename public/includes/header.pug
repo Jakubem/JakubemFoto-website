@@ -2,12 +2,13 @@ header(class=(activePage === 'home' ? "home": "") aria-label='menu' )
   h1(class='logo') JakubemFoto
   button(type='button' title='open menu'  class='btn' aria-label='otwórz menu')
     include logo/hmb.svg
-  ul(class='menu-list')
-    li 
-      a(href='/' class=(activePage === 'home' ? "active": "")) home
-    li 
-      a(href='/photo' class=(activePage === 'photo' ? "active": "")) photo
-    li 
-      a(href='/video' class=(activePage === 'video' ? "active": "")) video
-    li 
-      a(href='/projects' class=(activePage === 'projects' ? "active": "")) about
+  nav
+    ul(class='menu-list')
+      li 
+        a(href='/' class=(activePage === 'home' ? "active": "")) home
+      li 
+        a(href='/photo' class=(activePage === 'photo' ? "active": "")) photo
+      li 
+        a(href='/video' class=(activePage === 'video' ? "active": "")) video
+      li 
+        a(href='/projects' class=(activePage === 'projects' ? "active": "")) about
