@@ -1,11 +1,9 @@
-- var activePage = 'stuff';
-doctype html
+- var activePage = 'projects';
+<!DOCTYPE html>
+html(lang="pl")
 head
   include includes/meta
-body(class=(activePage === 'stuff' ? "body-gallery": ""))
+body(class=(activePage === 'projects' ? "body-gallery": ""))
   include includes/header
   main(class='site-content')
-  include includes/blog
   include includes/footer
-  script(src='js/halkaBox.min.js')
-  script(src='js/index.js')
