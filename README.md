@@ -5,6 +5,12 @@
 > Demo: [jakubemfoto.pl](http://www.jakubemfoto.pl)
 
 ```
-app.js
 # server file
+app.js
+
+# script to optimize photos
+scripts/optimize.py
+
+# script to create rectangle thumbnails
+scripts/crop.py
 ```
