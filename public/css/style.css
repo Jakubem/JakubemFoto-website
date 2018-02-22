@@ -163,15 +163,17 @@ footer {
   text-decoration: none;
   list-style: none;
 }
+.sm li:hover {
+  filter: drop-shadow(0 0 5px #e5e5e5);
+}
 
 .email-adress {
   text-decoration: none;
   color: rgba(182, 183, 255, 0.6);
   margin-right: 10px;
 }
-
-.sm li:hover {
-  filter: drop-shadow(0 0 5px #e5e5e5);
+.email-adress:hover {
+  color: rgba(255, 182, 182, 0.6);
 }
 
 /* gallery */
