@@ -6,6 +6,10 @@ head
 body(class=(activePage === 'projects' ? "body-gallery": ""))
   include includes/header
   main(class='site-content')
+    div(class='project-wrapper')
+      h2(class='project-info')='Nasa Asteroid Tracker'
+      p(class='project-desc')='Simple app for tracking near earth objects. Data provided by nasa API.'
+      img(src="img/assets/1.jpg", alt="Nasa Asteroid Tracker project image")
   include includes/footer
   script(src='js/halkaBox.min.js')
   script(src='js/index.js')
