@@ -13,9 +13,9 @@ app.get('/', function(req, res){
   );
 });
 
-app.get('/photo', function(req, res){
+app.get('/foto', function(req, res){
   res.send(
-    pug.renderFile('public/photo.pug', {
+    pug.renderFile('public/foto.pug', {
     })
   );
 });
