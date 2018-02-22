@@ -211,6 +211,23 @@ footer {
   margin: 0;
 }
 
+.projects-info {
+  font-size: 25px;
+  padding: 0;
+  margin-bottom: 30px;
+  font-family: 'montserrat', 'arial';
+  color: #e5e5e5;
+  text-align: center;
+}
+.projects-info a{
+  color: rgba(182, 183, 255, 0.6);
+  text-decoration: none;
+}
+.projects-info a:hover{
+  color: rgba(255, 182, 182, 0.6);
+  text-decoration: none;
+}
+
 .gallery-container {
   display: flex;
   flex-wrap: wrap;
