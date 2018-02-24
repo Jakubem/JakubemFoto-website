@@ -395,7 +395,9 @@ article {
     height: 28px;
   }
   .footer-p {
-    font-size: 10px;
+    font-size: 8px;
+    margin-left: 0;
+    padding: 0;
   }
   .hero {
     margin-top: 100px;
@@ -443,9 +445,6 @@ article {
   .sm li a svg {
     padding: 0;
     height: 28px;
-  }
-  .footer-p {
-    font-size: 10px;
   }
   .author span {
     font-size: 20px;
