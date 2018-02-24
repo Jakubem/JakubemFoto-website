@@ -4,13 +4,12 @@
 
 > Demo: [jakubemfoto.pl](http://www.jakubemfoto.pl)
 
-```
-# server file
-app.js
+- server file <br>
+```app.js```
 
-# script to optimize photos
-scripts/optimize.py
+- script to optimize photos <br>
+```scripts/optimize.py```
 
-# script to create rectangle thumbnails
-scripts/crop.py
-```
+- script to create rectangle thumbnails <br>
+```scripts/crop.py```
+
