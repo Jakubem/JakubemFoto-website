@@ -14,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #0f0f27;
-  background-image: url(/img/bg/2.jpg);
+  background-image: url(../img/bg/2.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -83,6 +83,12 @@ header {
   margin: 0;
   padding: 0;
   font-family: 'lato';
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
 }
 
 .menu-list a {
@@ -417,7 +423,7 @@ article {
     position: relative;
     right: 10%;
     flex-direction: column;
-    margin: 10px;
+    margin-right: 30px;
     margin-top: 0;
     margin-bottom: 0;
   }
