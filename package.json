@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack -d --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Jakub Maksimowicz",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.15.3",
     "halkabox": "^0.5.0",
@@ -15,11 +15,17 @@
     "sass": "^1.0.0-beta.2"
   },
   "devDependencies": {
+    "css-loader": "^0.28.10",
     "gulp": "^3.9.1",
     "gulp-html-replace": "^1.6.2",
     "gulp-pug": "^3.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
-    "gulp-watch": "^4.3.11"
+    "gulp-watch": "^4.3.11",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.2",
+    "webpack": "^4.1.0",
+    "webpack-cli": "^2.0.10"
   }
 }
