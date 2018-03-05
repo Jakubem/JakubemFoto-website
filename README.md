@@ -9,8 +9,9 @@
 ```app.js```
 
 - script to optimize photos <br>
-```scripts/optimize.py```
+```scripts/optimize.py``` 
 
 - script to create rectangle thumbnails <br>
 ```scripts/crop.py```
 
+To build static pages run `gulp build`
