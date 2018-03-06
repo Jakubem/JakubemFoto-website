@@ -1,19 +1,20 @@
-halkaBox.run("gallery1", {
-  hideButtons: false, // hide buttons on touch devices (true || false)
-  animation: "slide", // animation type on next/prev ("slide" || "fade")
-  theme: "dark", // lightbox overlay theme ("light" || "dark")
-  preload: 2 // number of images to preload
-});
+const halkaBox = require('./halkaBox.min.js');
+  halkaBox.run("gallery1", {
+    hideButtons: false,
+    animation: "slide",
+    theme: "dark",
+    preload: 2
+  });
 
-halkaBox.run("gallery2", {
-  hideButtons: false,
-  animation: "slide",
-  theme: "dark",
-  preload: 2
-});
+  halkaBox.run("gallery2", {
+    hideButtons: false,
+    animation: "slide",
+    theme: "dark",
+    preload: 2
+  });
 
-const btn = document.querySelector('.btn');
-const hdr = document.querySelector('.menu-list');
-btn.addEventListener('click', function () {
-  hdr.classList.toggle('open');
-});
+  const btn = document.querySelector('.btn');
+  const hdr = document.querySelector('.menu-list');
+  btn.addEventListener('click', function () {
+    hdr.classList.toggle('open');
+  });
