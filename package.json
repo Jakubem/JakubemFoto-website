@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch"
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
   },
   "author": "Jakub Maksimowicz",
   "license": "MIT",
@@ -16,12 +17,7 @@
   },
   "devDependencies": {
     "css-loader": "^0.28.10",
-    "gulp": "^3.9.1",
-    "gulp-html-replace": "^1.6.2",
-    "gulp-pug": "^3.3.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-watch": "^4.3.11",
+    "file-loader": "^1.1.11",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.2",
