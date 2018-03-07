@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const pug = require('pug')
 
 const port = 3024;
 
@@ -8,28 +9,28 @@ app.set('view engine', 'pug');
 
 app.get('/', (req, res) => {
   res.send(
-    pug.renderFile('public/index.pug', {
+    pug.renderFile('src/views/index.pug', {
     })
   );
 });
 
 app.get('/foto', (req, res) => {
   res.send(
-    pug.renderFile('public/foto.pug', {
+    pug.renderFile('src/views/foto.pug', {
     })
   );
 });
 
 app.get('/video', (req, res) => {
   res.send(
-    pug.renderFile('public/video.pug', {
+    pug.renderFile('src/views/video.pug', {
     })
   );
 });
 
 app.get('/projects', (req, res) => {
   res.send(
-    pug.renderFile('public/projects.pug', {
+    pug.renderFile('src/views/projects.pug', {
     })
   );
 });
