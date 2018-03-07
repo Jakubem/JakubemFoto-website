@@ -2,7 +2,7 @@
 
 ### Photography portfolio with blog
 
-> Static demo: [jakubemfoto.pl](http://www.jakubemfoto.pl)
+> Static demo: [jakubemfoto.pl](http://www.jakubemfoto.pl) <br>
 > Demo running on node: [jakubemfoto.pl](http://jakubemx.usermd.net)
 
 - server file <br>
