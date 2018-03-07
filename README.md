@@ -3,7 +3,7 @@
 ### Photography portfolio with blog
 
 > Static demo: [jakubemfoto.pl](http://www.jakubemfoto.pl) <br>
-> Demo running on node: [jakubemfoto.pl](http://jakubemx.usermd.net)
+> Demo running on node: [jakubemx.usermd.net](http://jakubemx.usermd.net)
 
 - server file <br>
 ```app.js```
