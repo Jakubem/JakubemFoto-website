@@ -1,0 +1,8 @@
+mixin m-project-item(obj)
+    a(href=obj.pHref class='project-wrapper')
+        div(class='project-info-wrapper')
+            h2(class='project-info-b')
+              | #{obj.pInfo}
+            p(class='project-desc')
+              | #{obj.pDesc}
+        img(src=obj.pImageSrc, class='project-img' alt=obj.pImageAlt)

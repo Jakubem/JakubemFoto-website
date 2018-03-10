@@ -1,3 +1,5 @@
+include includes/m-project-item.pug
+
 - var activePage = 'projects';
 <!DOCTYPE html>
 html(lang="pl")
@@ -7,13 +9,13 @@ body(class=(activePage === 'projects' ? "body-gallery": ""))
   include includes/analytics
   include includes/header
   main(class='site-content')
-    a(href='http://nasa-asteroid-tracker.jakubemfoto.pl/' class='project-wrapper')
-      div(class='project-info-wrapper')
-        h2(class='project-info-b')
-          | Nasa Asteroid Tracker
-        p(class='project-desc')
-          | Simple app for tracking near earth objects. Data provided by nasa API.
-      img(src="img/assets/1.png", class='project-img' alt="Nasa Asteroid Tracker project image")
+    +m-project-item({
+      pHref: '#',
+      pInfo: 'foo',
+      pDesc: 'bar',
+      pImageSrc: './baz',
+      pImageAlt: 'kurdekoniec'
+    })
     a(href='https://github.com/Jakubem/gulp_example_task' class='project-wrapper')
       div(class='project-info-wrapper')
         h2(class='project-info-b')
