@@ -5,7 +5,7 @@
 @import 'rwd';
 
 .body-gallery {
-  background: $bg-gradient;
+  background: $c-gradient;
 }
 
 .site-content {
@@ -44,7 +44,7 @@ header {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 5px 45px #2a2053cc;
+  box-shadow: 0 5px 45px #2a2053;
   margin-bottom: 40px;
 }
 
