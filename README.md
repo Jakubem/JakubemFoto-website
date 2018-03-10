@@ -2,9 +2,7 @@
 
 ### Photography portfolio with blog
 
-> Static demo: [jakubemfoto.pl](http://www.jakubemfoto.pl) <br>
-> Demo running on node: [jakubemx.usermd.net](http://jakubemx.usermd.net)
-
+> Live demo: [jakubemfoto.pl](http://www.jakubemfoto.pl) <br>
 
 - Start watching on `src` drectory <br>
 ```npm run dev```
