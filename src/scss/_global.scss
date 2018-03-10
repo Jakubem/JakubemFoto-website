@@ -1,0 +1,20 @@
+html {
+    margin: 0px;
+    padding: 0px;
+  }
+
+body {
+    background-repeat: no-repeat;
+    background: #fafafa;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: $bg-color;
+    background-image: url(img/bg/2.jpg);
+    background-position: center;
+    background-size: cover;
+  }

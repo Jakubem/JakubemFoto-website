@@ -1,0 +1,109 @@
+@media screen and (max-width: 780px) {
+    .menu-list li a {
+      padding: 0;
+      margin: 6px;
+      font-size: 15px;
+      transition: none;
+      border-bottom: none;
+    }
+    .logo {
+      font-size: 25px;
+    }
+    .sm li a svg {
+      padding: 0;
+      height: 28px;
+    }
+    .footer-p {
+      font-size: 10px;
+    }
+    .yt {
+      width: 320px;
+      height: 180px;
+    }
+    .hero {
+      margin-top: 120px;
+    }
+    .hero .author {
+      font-size: 40px;
+    }
+    .hero .items {
+      font-size: 35px;
+    }
+    .project-wrapper {
+      width: 340px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .logo {
+      font-size: 25px;
+    }
+    .sm li a svg {
+      padding: 0;
+      height: 28px;
+    }
+    .footer-p {
+      font-size: 8px;
+      margin-left: 0;
+      padding: 0;
+    }
+    .hero {
+      margin-top: 100px;
+    }
+    .hero .author {
+      font-size: 30px;
+    }
+    .hero .items {
+      font-size: 25px;
+    }
+    /* menu */
+    .menu-list {
+      display: none;
+    }
+    .btn {
+      display: block;
+      position: absolute;
+      right: 20px;
+      height: 33px;
+      margin: 0;
+      padding: 0;
+    }
+    .open {
+      display: flex;
+      position: relative;
+      right: 10%;
+      flex-direction: column;
+      margin-right: 30px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .open li {
+      margin: 5px;
+    }
+  
+  .gallery-info h2 {
+    font-size: 30px;
+  }
+  .gallery-info h2 span {
+    font-size: 20px;  
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .sm li a svg {
+      padding: 0;
+      height: 28px;
+    }
+    .author span {
+      font-size: 20px;
+    }
+    .hero {
+      margin-top: 80px;
+    }
+    .hero .author {
+      font-size: 20px;
+    }
+    .hero .items {
+      font-size: 15px;
+    }
+  }
