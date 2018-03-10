@@ -2,7 +2,6 @@
 @import 'variables';
 @import 'global';
 @import 'projects';
-@import 'rwd';
 
 .body-gallery {
   background: $c-gradient;
@@ -259,10 +258,4 @@ footer {
   border-radius: 4px;
 }
 
-/*blog*/
-
-article {
-  width: 50%;
-  font-family: 'lato';
-  color: #fefefe;
-}
+@import 'rwd';
