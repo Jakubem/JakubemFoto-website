@@ -1,28 +1,11 @@
 @import 'halkabox';
-
-html {
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
-  background-repeat: no-repeat;
-  background: #fafafa;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  width: 100%;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  background-color: #0f0f27;
-  background-image: url(img/bg/2.jpg);
-  background-position: center;
-  background-size: cover;
-}
+@import 'variables';
+@import 'global';
+@import 'projects';
+@import 'rwd';
 
 .body-gallery {
-  background: linear-gradient(45deg, #2c1b40, #16132e);
+  background: $bg-gradient;
 }
 
 .site-content {
@@ -34,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-shadow: 0 0 30px rgba(15, 15, 39, 0.9);
+  text-shadow: 0 0 30px #0f0f27;
 }
 
 .hero .author {
@@ -61,7 +44,7 @@ header {
   padding: 10px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 5px 45px rgba(42, 32, 83, 0.8);
+  box-shadow: 0 5px 45px #2a2053cc;
   margin-bottom: 40px;
 }
 
@@ -104,7 +87,6 @@ header {
 }
 
 .menu-list a:hover {
-  /*  color: #ff3b3b;*/
   border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -159,7 +141,7 @@ footer {
 }
 
 .footer-p {
-  color: rgba(229, 229, 229, 0.5);
+  color: #e5e5e580;
   font-family: 'montserrat', 'arial';
   padding-right: 15px;
 }
@@ -218,73 +200,6 @@ footer {
   padding: 0;
   margin: 0;
 }
-
-.project-wrapper {
-  background: #e5e5e5;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  width: 640px;
-  padding: 10px;
-  border-left: 5px solid white;
-  text-decoration: none;
-}
-.project-wrapper:hover{
-  transform: scale(1.01);
-  transition: 0.1s;
-  will-change: transform;
-}
-.project-info-wrapper {
-  width: 100%;
-}
-.project-img {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;  
-}
-.project-a {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-.project-info {
-  font-size: 25px;
-  padding: 0;
-  margin-bottom: 30px;
-  font-family: 'montserrat', 'arial';
-  color: #e5e5e5;
-  text-align: left;
-}
-.project-info-b{
-  font-size: 30px;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-family: 'montserrat', 'arial';
-  color: rgb(80, 80, 80);
-  text-align: left;
-}
-.project-desc {
-  font-size: 18px;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 10px;
-  font-family: 'montserrat', 'arial';
-  color: rgb(80, 80, 80);
-  text-align: left;
-}
-.project-info a{
-  color: rgba(182, 183, 255, 0.6);
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
-
-
 
 .video-info {
   font-size: 25px;
@@ -350,114 +265,4 @@ article {
   width: 50%;
   font-family: 'lato';
   color: #fefefe;
-}
-
-@media screen and (max-width: 780px) {
-  .menu-list li a {
-    padding: 0;
-    margin: 6px;
-    font-size: 15px;
-    transition: none;
-    border-bottom: none;
-  }
-  .logo {
-    font-size: 25px;
-  }
-  .sm li a svg {
-    padding: 0;
-    height: 28px;
-  }
-  .footer-p {
-    font-size: 10px;
-  }
-  .yt {
-    width: 320px;
-    height: 180px;
-  }
-  .hero {
-    margin-top: 120px;
-  }
-  .hero .author {
-    font-size: 40px;
-  }
-  .hero .items {
-    font-size: 35px;
-  }
-  .project-wrapper {
-    width: 340px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .logo {
-    font-size: 25px;
-  }
-  .sm li a svg {
-    padding: 0;
-    height: 28px;
-  }
-  .footer-p {
-    font-size: 8px;
-    margin-left: 0;
-    padding: 0;
-  }
-  .hero {
-    margin-top: 100px;
-  }
-  .hero .author {
-    font-size: 30px;
-  }
-  .hero .items {
-    font-size: 25px;
-  }
-  /* menu */
-  .menu-list {
-    display: none;
-  }
-  .btn {
-    display: block;
-    position: absolute;
-    right: 20px;
-    height: 33px;
-    margin: 0;
-    padding: 0;
-  }
-  .open {
-    display: flex;
-    position: relative;
-    right: 10%;
-    flex-direction: column;
-    margin-right: 30px;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  .open li {
-    margin: 5px;
-  }
-
-.gallery-info h2 {
-  font-size: 30px;
-}
-.gallery-info h2 span {
-  font-size: 20px;  
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .sm li a svg {
-    padding: 0;
-    height: 28px;
-  }
-  .author span {
-    font-size: 20px;
-  }
-  .hero {
-    margin-top: 80px;
-  }
-  .hero .author {
-    font-size: 20px;
-  }
-  .hero .items {
-    font-size: 15px;
-  }
 }
