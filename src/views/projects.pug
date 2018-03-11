@@ -10,45 +10,50 @@ body(class=(activePage === 'projects' ? "body-gallery": ""))
   include includes/header
   main(class='site-content')
     +m-project-item({
-      pHref: '#',
-      pInfo: 'foo',
-      pDesc: 'bar',
-      pImageSrc: './baz',
-      pImageAlt: 'kurdekoniec'
+      pInfo: 'Nasa Asteroid Tracker',
+      pDesc: 'Simple app for tracking near earth objects',
+      pImageSrc: './img/assets/1.png',
+      pImageAlt: 'Nasa Asteroid Tracker project thumbnail',
+      pHrefGithub: 'https://github.com/Jakubem/Nasa-asteroid-tracker',
+      pHrefLive: 'http://nasa-asteroid-tracker.jakubemfoto.pl'
     })
-    a(href='https://github.com/Jakubem/gulp_example_task' class='project-wrapper')
-      div(class='project-info-wrapper')
-        h2(class='project-info-b')
-          | Gulp Example Task
-        p(class='project-desc')
-          | Complete dev and prod Gulp setup with ES6 modules, linting, Babel and more.
-      img(src="img/assets/4.png", class='project-img' alt="Gulp Example Task project image")
-    a(href='http://gallery.jakubemfoto.pl' class='project-wrapper')
-      div(class='project-info-wrapper')
-        h2(class='project-info-b')
-          | JS lightbox
-        p(class='project-desc')
-          | Simple javaScript Lightbox gallery.
-      img(src="img/assets/3.png", class='project-img' alt="JS lightbox project image")
-    a(href='http://decision-making-system.jakubemfoto.pl/' class='project-wrapper')
-      div(class='project-info-wrapper')
-        h2(class='project-info-b')
-          | Decision Making System
-        p(class='project-desc')
-          | Simple widget, that'll help you decide what's right.
-      img(src="img/assets/2.png", class='project-img' alt="Decision Making System project image")
-    a(href='http://gallery.jakubemfoto.pl' class='project-wrapper')
-      div(class='project-info-wrapper')
-        h2(class='project-info-b')
-          | Email Sender
-        p(class='project-desc')
-          | PHP Email Sender with cool custom floating labels.
-      img(src="img/assets/5.png", class='project-img' alt="Email Sender project image")
-    a(href='http://twister.jakubemfoto.pl/' class='project-wrapper')
-      div(class='project-info-wrapper')
-        h2(class='project-info-b')
-          | Twister Spinner
-        p(class='project-desc')
-          | My very first JS project - Twister Spinner with speech synthesizer.
-      img(src="img/assets/6.png", class='project-img' alt="Twister Spinner project image")
+    +m-project-item({
+      pInfo: 'Gulp dev setup',
+      pDesc: 'Complete dev setup with Gulp, Sass, Pug, Babel and more',
+      pImageSrc: './img/assets/4.png',
+      pImageAlt: 'Gulp dev setup project thumbnail',
+      pHrefGithub: 'https://github.com/Jakubem/gulp_example_task',
+    })
+    +m-project-item({
+      pInfo: 'JS Lightbox gallery',
+      pDesc: 'Simple javaScript Lightbox gallery',
+      pImageSrc: './img/assets/3.png',
+      pImageAlt: 'JS Lightbox gallery project thumbnail',
+      pHrefGithub: 'https://github.com/Jakubem/js-lightbox-gallery',
+      pHrefLive: 'http://gallery.jakubemfoto.pl/'
+    })
+    +m-project-item({
+      pInfo: 'Decision Making System',
+      pDesc: 'Simple widget, that\'ll help you decide what\'s right',
+      pImageSrc: './img/assets/2.png',
+      pImageAlt: 'Decision Making System project thumbnail',
+      pHrefGithub: 'https://github.com/Jakubem/decision_making_system',
+      pHrefLive: 'http://decision-making-system.jakubemfoto.pl'
+    })
+    +m-project-item({
+      pInfo: 'Email sender',
+      pDesc: 'PHP Email Sender with cool custom floating labels',
+      pImageSrc: './img/assets/5.png',
+      pImageAlt: 'Email sender project thumbnail',
+      pHrefGithub: 'https://github.com/Jakubem/email-sender',
+      pHrefLive: 'http://form.jakubemfoto.pl'
+    })
+    +m-project-item({
+      pInfo: 'Twister Spinner',
+      pDesc: 'My very first JS project - Twister Spinner with speech synthesizer.',
+      pImageSrc: './img/assets/6.png',
+      pImageAlt: 'Twister Spinner project thumbnail',
+      pHrefGithub: 'https://github.com/Jakubem/twister-spinner',
+      pHrefLive: 'http://twister.jakubemfoto.pl/'
+    })
   include includes/footer
