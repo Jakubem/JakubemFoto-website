@@ -1,8 +1,15 @@
 mixin m-project-item(obj)
-    a(href=obj.pHref class='project-wrapper')
-        div(class='project-info-wrapper')
-            h2(class='project-info-b')
-              | #{obj.pInfo}
-            p(class='project-desc')
-              | #{obj.pDesc}
+    div(class='project-wrapper')
+      div(class='project-info-wrapper')  
+        h2(class='project-h')
+          | #{obj.pInfo}
+        p(class='project-desc')
+          | #{obj.pDesc}
         img(src=obj.pImageSrc, class='project-img' alt=obj.pImageAlt)
+        span(class="demo-wrapper")
+          if obj.pHrefGithub
+            a(href=obj.pHrefGithub class='link-btn')
+              | Github
+          if obj.pHrefLive
+            a(href=obj.pHrefLive class='link-btn')
+              | Live demo
