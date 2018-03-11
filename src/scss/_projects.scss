@@ -19,27 +19,14 @@
     margin: 0;
     padding: 0;  
   }
-  .project-a {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  .project-info {
-    font-size: 25px;
-    padding: 0;
-    margin-bottom: 30px;
-    font-family: 'montserrat', 'arial';
-    color: #e5e5e5;
-    text-align: left;
-  }
-  .project-info-b{
+
+  .project-h{
     font-size: 30px;
     padding: 0;
     margin: 0;
-    margin-bottom: 20px;
-    font-family: 'montserrat', 'arial';
-    color: rgb(80, 80, 80);
+    margin-bottom: 15px;
+    font-family: $font-family;
+    color: $c-dark-gray;
     text-align: left;
   }
   .project-desc {
@@ -47,13 +34,30 @@
     padding: 0;
     margin: 0;
     margin-bottom: 10px;
-    font-family: 'montserrat', 'arial';
+    font-family: $font-family;
     color: rgb(80, 80, 80);
     text-align: left;
   }
-  .project-info a{
-    color: rgba(182, 183, 255, 0.6);
-    text-decoration: none;
+  .demo-wrapper {
+    width: 100%;
+    display: flex;
     margin: 0;
     padding: 0;
+  }
+
+  .link-btn {
+    background: $c-red;
+    margin: 0;
+    margin-top: 5px;
+    margin-right: 15px;
+    padding: 10px;
+    text-decoration: none;
+    font-family: $font-family;
+    color: $c-white;
+    text-shadow: $text-shadow;
+  }
+
+  .link-btn:hover {
+    background: $c-red-hover;
+    text-shadow: none;
   }
