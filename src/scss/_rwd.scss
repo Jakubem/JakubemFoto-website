@@ -9,9 +9,13 @@
     .logo {
       font-size: 25px;
     }
+    .sm li{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
     .sm li a svg {
       padding: 0;
-      height: 28px;
+      height: 25px;
     }
     .footer-p {
       font-size: 10px;
@@ -32,6 +36,12 @@
     .project-wrapper {
       width: 340px;
     }
+    .link-btn {
+      margin-top: 5px;
+      margin-right: 10px;
+      padding: 8px;
+      font-size: 12px;
+    }
   }
   
   @media screen and (max-width: 500px) {
@@ -40,7 +50,11 @@
     }
     .sm li a svg {
       padding: 0;
-      height: 28px;
+      height: 18px;
+    }
+    .sm li{
+      margin-left: 0px;
+      margin-right: 0px;
     }
     .footer-p {
       font-size: 8px;
