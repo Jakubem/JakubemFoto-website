@@ -5,7 +5,7 @@ mixin m-project-item(obj)
           | #{obj.pInfo}
         p(class='project-desc')
           | #{obj.pDesc}
-        img(src=obj.pImageSrc, class='project-img' alt=obj.pImageAlt)
+        img(src=obj.pImageSrc, class='project-img' alt=obj.pInfo+' project thumbnail')
         span(class="demo-wrapper")
           if obj.pHrefGithub
             a(href=obj.pHrefGithub class='link-btn' aria-label=obj.pInfo+' - github link')
