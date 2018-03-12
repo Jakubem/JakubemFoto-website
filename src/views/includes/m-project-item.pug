@@ -8,8 +8,8 @@ mixin m-project-item(obj)
         img(src=obj.pImageSrc, class='project-img' alt=obj.pImageAlt)
         span(class="demo-wrapper")
           if obj.pHrefGithub
-            a(href=obj.pHrefGithub class='link-btn')
+            a(href=obj.pHrefGithub class='link-btn' aria-label=obj.pInfo+' - github link')
               | Github
           if obj.pHrefLive
-            a(href=obj.pHrefLive class='link-btn')
+            a(href=obj.pHrefLive class='link-btn' aria-label=obj.pInfo+ ' - Live demo')
               | Live demo
