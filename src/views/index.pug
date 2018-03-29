@@ -1,15 +1,15 @@
 - var activePage = 'home';
 <!DOCTYPE html>
 html(lang="en")
-head
-  include includes/meta
-body(class=(activePage === 'home' ? "bg": ""))
-  include includes/analytics
-  include includes/header
-  main(class='site-content')
-    div(class='hero')
-      h2(class='author')
-        | Jakub Maksimowicz
-      h3(class='items')
-        | foto | video | front
-  include includes/footer
+  head
+    include includes/meta
+  body(class=(activePage === 'home' ? "bg": ""))
+    include includes/analytics
+    include includes/header
+    main(class='site-content')
+      div(class='hero')
+        h2(class='author')
+          | Jakub Maksimowicz
+        h3(class='items')
+          | foto | video | front
+    include includes/footer

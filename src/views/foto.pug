@@ -1,11 +1,11 @@
 - var activePage = 'foto';
 <!DOCTYPE html>
 html(lang="en")
-head
- include includes/meta
-body(class=(activePage === 'foto' ? "body-gallery": ""))
-  include includes/analytics
-  include includes/header
-  h2(class='photo-h2')
-  include includes/gallery
-  include includes/footer
+  head
+    include includes/meta
+  body(class=(activePage === 'foto' ? "body-gallery": ""))
+    include includes/analytics
+    include includes/header
+    h2(class='photo-h2')
+    include includes/gallery
+    include includes/footer
