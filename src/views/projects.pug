@@ -8,6 +8,8 @@ html(lang="en")
   body(class=(activePage === 'projects' ? "body-gallery": ""))
     include includes/analytics
     include includes/header
+    h2(class='page-info')='Some of my front-end projects. For more please visit my'
+        a(href="https://github.com/Jakubem")=' Github.'
     main(class='site-content')
       +m-project-item({
         pInfo: 'Nasa Asteroid Tracker',

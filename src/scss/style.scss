@@ -192,8 +192,8 @@ footer {
   margin: 0;
 }
 
-.video-info {
-  font-size: 25px;
+.page-info {
+  font-size: 26px;
   padding: 0;
   margin-bottom: 30px;
   font-family: $font-family;
@@ -201,11 +201,11 @@ footer {
   text-align: center;
 }
 
-.video-info a{
+.page-info a{
   color: $c-red;
   text-decoration: none;
 }
-.video-info a:hover{
+.page-info a:hover{
   color: $c-red-hover;
   text-decoration: none;
 }
