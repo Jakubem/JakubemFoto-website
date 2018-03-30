@@ -232,11 +232,11 @@ footer {
   transition: 0.15s;
   will-change: border;
   border: 2px solid $c-white;
+  &:hover {
+    border: 2px solid $c-red;
+  }
 }
 
-.gallery-container a img:hover {
-  border: 2px solid $c-red;
-}
 
 .video {
   display: flex;
