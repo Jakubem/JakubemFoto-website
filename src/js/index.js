@@ -26,11 +26,11 @@ btn.addEventListener('click', function () {
   hdr.classList.toggle('open');
 });
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js').then(function(registration) {
-  }).catch(function(error) {
-    console.log('Service worker registration failed:', error);
-  });
-} else {
-  console.log('Service workers are not supported.');
-}
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker.register('/sw.js').then(function(registration) {
+//   }).catch(function(error) {
+//     console.log('Service worker registration failed:', error);
+//   });
+// } else {
+//   console.log('Service workers are not supported.');
+// }
