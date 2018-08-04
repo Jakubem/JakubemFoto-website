@@ -32,11 +32,16 @@
 }
 
 .hero .items {
+  margin: 0;
+}
+
+.hero .items a {
   font-family: 'montserrat', 'arial';
   color: $c-white;
   opacity: 0.98;
   font-size: 50px;
   margin: 0;
+  text-decoration: none;
 }
 
 header {
