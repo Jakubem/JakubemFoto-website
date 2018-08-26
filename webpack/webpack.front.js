@@ -1,5 +1,6 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin');
 module.exports = {
   entry: './src/js/main.js',
   output: {
@@ -27,9 +28,14 @@ module.exports = {
           },
         ],
       }),
-    }, ],
+    },
+  ],
   },
+  stats: 'errors-only',
   plugins: [
+    new FriendlyErrorsWebpackPlugin({
+      clearConsole: true,
+    }),
     new ExtractTextPlugin({
       filename: 'style.bundle.css',
       disable: false,
