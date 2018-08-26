@@ -4,16 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack -d --watch",
-    "prod": "webpack -p"
+    "frontend": "webpack -d --watch --config webpack/webpack.front.js",
+    "backend": "webpack -p --watch --config webpack/webpack.back.js"
   },
   "author": "Jakub Maksimowicz",
   "license": "MIT",
   "dependencies": {
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-rc.3",
+    "babel-loader": "^8.0.0-beta.4",
     "express": "^4.15.3",
+    "friendly-errors-webpack-plugin": "^1.7.0",
     "halkabox": "^0.5.0",
+    "nodemon-webpack-plugin": "^3.0.1",
     "pug": "^2.0.0-rc.2",
-    "sass": "^1.0.0-beta.2"
+    "sass": "^1.0.0-beta.2",
+    "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
     "css-loader": "^0.28.10",
