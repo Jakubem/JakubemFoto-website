@@ -2,19 +2,21 @@
 
 ### Photography portfolio with blog
 
-> Live demo: [jakubemfoto.pl](http://www.jakubemfoto.pl) <br>
+> Live demo: [jakubemfoto.pl](https://www.jakubemfoto.pl) <br>
 
-- Start watching on `src` drectory <br>
-```npm run dev```
+- Compile `frontend` drectory to `dist` <br>
+```npm run frontend```
 
-- Compile for production <br>
-```npm run prod```
-
-- server file <br>
-```app.js```
+- Compile backend to `bin`, and start nodemon <br>
+```npm run backend```
 
 - script to optimize photos <br>
 ```scripts/optimize.py``` 
 
 - script to create rectangle thumbnails <br>
 ```scripts/crop.py```
+
+### Directory structure:
+  > `webpack` - Webpack config files
+  > `src/views` - Pug templates
+  > `public` - static assets
