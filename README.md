@@ -2,7 +2,7 @@
 
 ![mannequin image](./public/img/ludzie/3.jpg)
 
-### Photography portfolio with blog
+### Photography, Video and Front-end portfolio
 
 > Live demo: [jakubemfoto.pl](https://www.jakubemfoto.pl) <br>
 
