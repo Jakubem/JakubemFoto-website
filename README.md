@@ -1,5 +1,7 @@
 ## JakubemFoto-website
 
+![mannequin image](./public/img/manekiny/2.jpg)
+
 ### Photography portfolio with blog
 
 > Live demo: [jakubemfoto.pl](https://www.jakubemfoto.pl) <br>
@@ -17,6 +19,6 @@
 ```scripts/crop.py```
 
 ### Directory structure:
-  > `webpack` - Webpack config files
-  > `src/views` - Pug templates
-  > `public` - static assets
+  > `webpack` - Webpack config files <br>
+  > `src/views` - Pug templates <br>
+  > `public` - static assets <br>
