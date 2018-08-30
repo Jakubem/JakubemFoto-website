@@ -1,6 +1,6 @@
 ## JakubemFoto-website
 
-![mannequin image](./public/img/manekiny/2.jpg)
+![mannequin image](./public/img/ludzie/3.jpg)
 
 ### Photography portfolio with blog
 
